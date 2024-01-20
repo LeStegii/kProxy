@@ -1,9 +1,9 @@
-package net.kettlemc.example;
+package net.kettlemc.kproxy;
 
 import io.github.almightysatan.slams.minimessage.AdventureMessage;
-import net.kettlemc.example.config.Configuration;
-import net.kettlemc.example.config.Messages;
-import net.kettlemc.example.loading.Loadable;
+import net.kettlemc.kproxy.config.Configuration;
+import net.kettlemc.kproxy.config.Messages;
+import net.kettlemc.kproxy.loading.Loadable;
 import net.kettlemc.kcommon.bukkit.ContentManager;
 import net.kettlemc.klanguage.api.LanguageAPI;
 import net.kettlemc.klanguage.bukkit.BukkitLanguageAPI;
@@ -22,7 +22,7 @@ public final class Plugin implements Loadable {
     private final JavaPlugin plugin;
     private BukkitAudiences adventure;
 
-    public Plugin(JavaPlugin plugin) {
+    public Plugin(Pl plugin) {
         this.plugin = plugin;
         this.contentManager = new ContentManager(plugin);
     }

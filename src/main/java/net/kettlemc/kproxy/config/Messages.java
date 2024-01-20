@@ -1,4 +1,4 @@
-package net.kettlemc.example.config;
+package net.kettlemc.kproxy.config;
 
 import io.github.almightysatan.slams.Slams;
 import io.github.almightysatan.slams.minimessage.AdventureMessage;

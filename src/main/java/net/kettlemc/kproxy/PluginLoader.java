@@ -1,9 +1,10 @@
-package net.kettlemc.example;
+package net.kettlemc.kproxy;
 
+import net.kettlemc.kproxy.loading.Loadable;
+import static net.kettlemc.kproxy.util.PluginConstants.*;
+import com.velocitypowered.api.plugin.Plugin;
 
-import net.kettlemc.example.loading.Loadable;
-
-public class PluginLoader extends org.bukkit.plugin.java.JavaPlugin {
+public class PluginLoader {
 
     Loadable plugin;
 

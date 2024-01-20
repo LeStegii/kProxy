@@ -1,4 +1,4 @@
-package net.kettlemc.example.config;
+package net.kettlemc.kproxy.config;
 
 import io.github.almightysatan.jaskl.Config;
 import io.github.almightysatan.jaskl.entries.StringConfigEntry;
